@@ -1,10 +1,10 @@
 #header {
-    background: #16664C;
+    background: #4d004c;
     color: #eee;
 }
 
 div.breadcrumbs {
-    background: #6BFFCE;
+    background: #b366b2;
     color: #444;
 }
 div.breadcrumbs a {
@@ -15,7 +15,7 @@ div.breadcrumbs a:hover {
 }
 
 a:link, a:visited {
-    color: #36BA92;
+    color: #81007f;
 }
 
 #branding h1 a, #branding h1 a:visited {
@@ -23,6 +23,6 @@ a:link, a:visited {
 }
 
 .module h2, .module caption, .inline-group h2 {
-    background: #36BA92;
+    background: #81007f;
     color: #fff;
 }

@@ -76,11 +76,11 @@ class ScheduleResource(DjangoResource):
             agenda[key]["days"] = list(agenda[key]["days"].values())
         agenda = list(agenda.values())
         return {
-            "id": "PyConES16",
-            "name": "PyConES 2016 Almería",
-            "shortname": "PyConES 2016",
-            "date": "07/10/2016",
-            "place": "Almería",
+            "id": "PyDayGuadalajara2018",
+            "name": "PyDay Guadalajara 2018",
+            "shortname": "PyDayGU 2018",
+            "date": "15/04/2018",
+            "place": "Guadalajara",
             "logo": "http://2016.es.pycon.org/static/img/logo2016.jpg",
             "location": {
                 "img": "http://maps.googleapis.com/maps/api/staticmap?center=36.8293266,-2.4066496&zoom=15&"

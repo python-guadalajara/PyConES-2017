@@ -27,14 +27,14 @@ def export_to_pentabarf(days_queryset, rooms_queryset):
     # Conference
     conference_element = ElementTree.SubElement(schedule_root, 'conference')
     title = ElementTree.SubElement(conference_element, 'title')
-    title.text = "PyConES 2017"
+    title.text = "PyDay Guadalajara 2018"
     ElementTree.SubElement(conference_element, 'subtitle')
     venue = ElementTree.SubElement(conference_element, 'venue')
-    venue.text = "Complejo Cultural San Francisco, Cáceres"
+    venue.text = "TODO"
     start = ElementTree.SubElement(conference_element, 'start')
-    start.text = "2017-09-22"
+    start.text = "2018-04-15"
     end = ElementTree.SubElement(conference_element, 'end')
-    end.text = "2017-09-24"
+    end.text = "2018-04-15"
     days = ElementTree.SubElement(conference_element, 'days')
     days.text = str(days_queryset.count())
     timeslot_duration = ElementTree.SubElement(conference_element, 'timeslot_duration')

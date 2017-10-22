@@ -1,11 +1,11 @@
-================
-PyConES 2017 Web
-================
+==========================
+PyDay Guadalajara 2018 Web
+==========================
 
-Web page made for PyConES 2017, made with Django with :heart:.
+Web page made for PyDay Guadalajara 2018 (based on the PyConES 2017 web), made with Django with :heart:.
 
-.. image:: https://travis-ci.org/python-spain/PyConES-2017.svg?branch=master
-    :target: https://travis-ci.org/python-spain/PyConES-2017
+.. image:: https://travis-ci.org/python-guadalajara/PyDay-2018.svg?branch=master
+    :target: https://travis-ci.org/python-guadalajara/PyDay-2018
 
 Deploy with Docker
 ------------------
